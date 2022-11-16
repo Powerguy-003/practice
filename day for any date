@@ -29,14 +29,17 @@ elif b==11:
     b=2
 elif b==12:
     b=4
-else : print ('month format invalid')
+
 if c > 1999 and c <=2099:
     year_number=((((c - 2000)//4) + ((c - 2000)%7))%7)%7
 elif c >1899 and c <=1999 :
     year_number=(((((c - 1900)//4) + ((c - 1900)%7))%7)%7)+1
 else :
     print('*\year not within range')
+c=year_number
+# print ('*\n',a,b,c)
 day_number=(a+b+c)%7
+# print ('*\n',day_number)
 if day_number ==0:
     day='Sunday'
 elif day_number ==1:
