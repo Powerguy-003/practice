@@ -1,0 +1,45 @@
+day=int(input('enter the day: '))
+month=input('enter the first three letters of month: ')
+year=int(input('enter any year from 2001 to 2099: '))
+print ('your date is:',day,'-',month,'-',year)
+if month == 'jan':
+    month_value=6
+if month == 'feb':
+    month_value=2
+if month == 'mar':
+    month_value=2
+if month == 'apr':
+    month_value=5
+if month == 'may':
+    month_value=0
+if month == 'jun':
+    month_value=3
+if month == 'jul':
+    month_value=5
+if month == 'aug':
+    month_value=1
+if month == 'sep':
+    month_value=4
+if month == 'oct':
+    month_value=6
+if month == 'nov':
+    month_value=2
+if month == 'dec':
+    month_value=4
+final_value = (((day%7)+month_value+((year-2000)//4))+((year-2000)%7)%7)%7
+
+if final_value ==0:
+    weekday='Sunday'
+if final_value ==1:
+    weekday='Monday'
+if final_value ==2:
+    weekday='Tuesday'
+if final_value ==3:
+    weekday='Wednesday'
+if final_value ==4:
+    weekday='Thursday'
+if final_value ==5:
+    weekday='Friday'
+if final_value ==6:
+    weekday='Saturday'
+print('the date falls on',weekday)
