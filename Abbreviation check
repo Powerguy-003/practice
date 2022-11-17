@@ -1,0 +1,5 @@
+RQNS = input('RQNS : ')
+if RQNS == 'risk quality network service':
+    print('good')
+else :
+    print(input('try again\n'))
