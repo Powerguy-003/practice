@@ -1,0 +1,15 @@
+answer = int(input('1 + 1 : '))
+while answer!=2:
+    print('try again')
+    answer = int(input('1 + 1 : '))
+print ('*\ngood, next question : - ')
+answer = int(input('2 + 2 : '))
+while answer!=4:
+    print('try again')
+    answer = int(input('2 + 2 : '))
+print ('*\ngood, next question : - ')
+answer = int(input('4 + 4 : '))
+while answer!=8:
+    print('try again')
+    answer = int(input('4 + 4 : '))
+print('*\ntest done')
