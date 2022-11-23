@@ -1,5 +1,91 @@
+print ('welcome to the abbreviation test. All the best :-)')
 RQNS = input('RQNS : ')
-if RQNS == 'risk quality network service':
-    print('good')
-else :
-    print(input('try again\n'))
+while RQNS != 'Risk Quality Network Services' :
+    print('try again')
+    RQNS = input('RQNS : ')
+IPCA  = input('IPCA : ')
+while IPCA  !=  'Integrated Population Care Assist' :	
+    print ('try again')	
+    IPCA  = input('IPCA : ')
+ADHD  = input('ADHD : ')
+while ADHD  !=  'Attention Deficit Hyperactivity Disorder' :
+    print ('try again')	
+    ADHD  = input('ADHD : ')
+ERIM  = input('ERIM : ')
+while ERIM  !=  'Employee Records and Information Management' :	
+    print ('try again')	
+    ERIM  = input('ERIM : ')
+EIS  = input('EIS : ')
+while EIS  !=  'Enterprise Information Security' :	
+    print ('try again')	
+    EIS  = input('EIS : ')
+BSL  = input('BSL : ')
+while BSL  !=  'Business Segment Liaisons' :	
+    print ('try again')	
+    BSL  = input('BSL : ')
+OGA  = input('OGA : ')
+while OGA  !=  'Optum Global Advantage' :	
+    print ('try again')	
+    OGA  = input('OGA : ')
+ANSI  = input('ANSI : ')
+while ANSI  !=  'American National Standards Institute' :	
+    print ('try again')	
+    ANSI  = input('ANSI : ')
+MDI  = input('MDI : ')
+while MDI  !=  'Medical Document Indexing' :	
+    print ('try again')	
+    MDI  = input('MDI : ')
+AMS  = input('AMS : ')
+while AMS  !=  'Absence Management System' :	
+    print ('try again')	
+    AMS  = input('AMS : ')
+ETL  = input('ETL : ')
+while ETL  !=  'Extract Transform Load' :	
+    print ('try again')	
+    ETL  = input('ETL : ')
+PTO  = input('PTO : ')
+while PTO  !=  'Paid Time Off' :	
+    print ('try again')	
+    PTO  = input('PTO : ')
+WFM  = input('WFM : ')
+while WFM  !=  'Work Force Management' :	
+    print ('try again')	
+    WFM  = input('WFM : ')
+GSS  = input('GSS : ')
+while GSS  !=  'Global Self Service' :	
+    print ('try again')	
+    GSS  = input('GSS : ')
+CPR  = input('CPR : ')
+while CPR  !=  'Cardio Pulmonary Resuscitation' :	
+    print ('try again')	
+    CPR  = input('CPR : ')
+IDE  = input('IDE : ')
+while IDE  !=  'Integrated Development Environment' :	
+    print ('try again')	
+    IDE  = input('IDE : ')
+EPUB  = input('EPUB : ')
+while EPUB  !=  'Electronic Publication' :	
+    print ('try again')	
+    EPUB  = input('EPUB : ')
+CCE  = input('CCE : ')
+while CCE  !=  'Center for Continuing Education' :	
+    print ('try again')	
+    CCE  = input('CCE : ')
+CLL  = input('CLL : ')
+while CLL  !=  'Common Language of Leadership' :
+    print ('try again')	
+    CLL  = input('CLL : ')
+EDA  = input('EDA : ')
+while EDA  !=  'Exploratory Data Analysis' :	
+    print ('try again')	
+    EDA  = input('EDA : ')
+SSA  = input('SSA : ')
+while SSA  !=  'Six Sigma Assistant' :	
+    print ('try again')	
+    SSA  = input('SSA : ')
+API  = input('API : ')
+while API  !=  'Application Programming Interfaces' :	
+    print ('try again')	
+    API  = input('API : ')
+print ('test complete, congrats')
+
