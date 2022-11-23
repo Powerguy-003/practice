@@ -20,7 +20,7 @@ while EIS  !=  'Enterprise Information Security' :
     print ('try again')	
     EIS  = input('EIS : ')
 BSL  = input('BSL : ')
-while BSL  !=  'Business Segment Liaisons' :	
+while BSL  !=  'Business Segment Liaison' :	
     print ('try again')	
     BSL  = input('BSL : ')
 OGA  = input('OGA : ')
@@ -87,5 +87,8 @@ API  = input('API : ')
 while API  !=  'Application Programming Interfaces' :	
     print ('try again')	
     API  = input('API : ')
+SSMS = input('SSMS : ')
+while SSMS != 'SQL Server Management System' :
+    print ('try again')	
+    SSMS  = input('SSMS : ')
 print ('test complete, congrats')
-
