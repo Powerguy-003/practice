@@ -1,0 +1,38 @@
+import turtle
+turtlescreen = turtle.Screen()
+turtlescreen.bgcolor('peachpuff')
+
+spike = turtle.Turtle()
+spike.color('black')
+spike.pensize(3)
+
+ladyspike = turtle.Turtle()
+ladyspike.color('hotpink')
+ladyspike.pensize(3)
+
+babyspike = turtle.Turtle()
+babyspike.color('green')
+babyspike.pensize(3)
+
+lazyspike = turtle.Turtle()
+lazyspike.color('blue')
+lazyspike.pensize(3)
+
+
+spike.left(90)
+ladyspike.right(90)
+babyspike.left(180)
+spike.forward(100)
+ladyspike.forward(100)
+babyspike.forward(100)
+lazyspike.forward(100)
+spike.left(90)
+ladyspike.left(90)
+babyspike.left(90)
+lazyspike.left(90)
+spike.forward(100)
+ladyspike.forward(100)
+babyspike.forward(100)
+lazyspike.forward(100)
+
+turtlescreen.exitonclick()
