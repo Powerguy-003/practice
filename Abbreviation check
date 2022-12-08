@@ -51,10 +51,10 @@ WFM  = input('WFM : ')
 while WFM  !=  'Work Force Management' :	
     print ('try again')	
     WFM  = input('WFM : ')
-GSS  = input('GSS : ')
-while GSS  !=  'Global Self Service' :	
+OLTP = input('OLTP: ') 
+while OLTP !=  'Onine Transaction Processing' :	
     print ('try again')	
-    GSS  = input('GSS : ')
+    OLTP  = input('OLTP : ')
 CPR  = input('CPR : ')
 while CPR  !=  'Cardio Pulmonary Resuscitation' :	
     print ('try again')	
