@@ -1,94 +1,35 @@
-print ('welcome to the abbreviation test. All the best :-)')
-RQNS = input('RQNS : ')
-while RQNS != 'Risk Quality Network Services' :
-    print('try again')
-    RQNS = input('RQNS : ')
-IPCA  = input('IPCA : ')
-while IPCA  !=  'Integrated Population Care Assist' :	
-    print ('try again')	
-    IPCA  = input('IPCA : ')
-ADHD  = input('ADHD : ')
-while ADHD  !=  'Attention Deficit Hyperactivity Disorder' :
-    print ('try again')	
-    ADHD  = input('ADHD : ')
-ERIM  = input('ERIM : ')
-while ERIM  !=  'Employee Records and Information Management' :	
-    print ('try again')	
-    ERIM  = input('ERIM : ')
-EIS  = input('EIS : ')
-while EIS  !=  'Enterprise Information Security' :	
-    print ('try again')	
-    EIS  = input('EIS : ')
-BSL  = input('BSL : ')
-while BSL  !=  'Business Segment Liaison' :	
-    print ('try again')	
-    BSL  = input('BSL : ')
-OGA  = input('OGA : ')
-while OGA  !=  'Optum Global Advantage' :	
-    print ('try again')	
-    OGA  = input('OGA : ')
-ANSI  = input('ANSI : ')
-while ANSI  !=  'American National Standards Institute' :	
-    print ('try again')	
-    ANSI  = input('ANSI : ')
-MDI  = input('MDI : ')
-while MDI  !=  'Medical Document Indexing' :	
-    print ('try again')	
-    MDI  = input('MDI : ')
-AMS  = input('AMS : ')
-while AMS  !=  'Absence Management System' :	
-    print ('try again')	
-    AMS  = input('AMS : ')
-ETL  = input('ETL : ')
-while ETL  !=  'Extract Transform Load' :	
-    print ('try again')	
-    ETL  = input('ETL : ')
-PTO  = input('PTO : ')
-while PTO  !=  'Paid Time Off' :	
-    print ('try again')	
-    PTO  = input('PTO : ')
-WFM  = input('WFM : ')
-while WFM  !=  'Work Force Management' :	
-    print ('try again')	
-    WFM  = input('WFM : ')
-OLTP = input('OLTP: ') 
-while OLTP !=  'Onine Transaction Processing' :	
-    print ('try again')	
-    OLTP  = input('OLTP : ')
-CPR  = input('CPR : ')
-while CPR  !=  'Cardio Pulmonary Resuscitation' :	
-    print ('try again')	
-    CPR  = input('CPR : ')
-IDE  = input('IDE : ')
-while IDE  !=  'Integrated Development Environment' :	
-    print ('try again')	
-    IDE  = input('IDE : ')
-EPUB  = input('EPUB : ')
-while EPUB  !=  'Electronic Publication' :	
-    print ('try again')	
-    EPUB  = input('EPUB : ')
-CCE  = input('CCE : ')
-while CCE  !=  'Center for Continuing Education' :	
-    print ('try again')	
-    CCE  = input('CCE : ')
-CLL  = input('CLL : ')
-while CLL  !=  'Common Language of Leadership' :
-    print ('try again')	
-    CLL  = input('CLL : ')
-EDA  = input('EDA : ')
-while EDA  !=  'Exploratory Data Analysis' :	
-    print ('try again')	
-    EDA  = input('EDA : ')
-SSA  = input('SSA : ')
-while SSA  !=  'Six Sigma Assistant' :	
-    print ('try again')	
-    SSA  = input('SSA : ')
-API  = input('API : ')
-while API  !=  'Application Programming Interfaces' :	
-    print ('try again')	
-    API  = input('API : ')
-SSMS = input('SSMS : ')
-while SSMS != 'SQL Server Management System' :
-    print ('try again')	
-    SSMS  = input('SSMS : ')
-print ('test complete, congrats')
+abbreviation={"IPCA":"Integrated Population Care Assist",
+"ADHD":"Attention Deficit Hyperactivity Disorder",
+"ERIM":"Employee Records and Information Management",
+"EIS":"Enterprise Information Security",
+"BSL ":" Business Segment Liaison",
+"OGA ":" Optum Global Advantage",
+"ANSI ":" American National Standards Institute",
+"MDI ":" Medical Document Indexing",
+"AMS ":" Absence Management System",
+"ETL ":" Extract Transform Load",
+"PTO ":" Paid Time Off",
+"WFM ":" WorkForce Management",
+"GSS ":" Global Self Service",
+"CPR ":" CardioPulmonary Resuscitation",
+"IDE ":" Integrated Development Environment",
+"EPUB ":" Electronic Publication",
+"CCE ":" Centre for Continuing Education",
+"CLL ":" Common Language of Leadership",
+"EDA":" Exploratory Data Analysis",
+"SSA ":" Six Sigma Assistant",
+"API ":" Application Programming Interfaces",
+"SSMS ":" SQL Server Management System",
+"ER":" Entity Relationship",
+"OLTP ":" Onine Transaction Processing",
+"UTC ":" Universal Time Coordinated"
+}
+
+print('Welcome to abbreviation test!')
+keylist=list(abbreviation.keys())
+for x in range(len(keylist)):
+    u_input=input(keylist[x]+':')
+    while u_input!=abbreviation.get('IPCA'):
+        print ('try again')
+        u_input=input(keylist[x]+':')
+print('test complete!')   
